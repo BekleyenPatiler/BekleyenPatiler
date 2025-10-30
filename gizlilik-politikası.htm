@@ -1,0 +1,51 @@
+// lib/constants/legal/privacy_policy.dart
+
+const String kPrivacyPolicyText = '''
+**Gizlilik Politikası**
+
+**Son Güncelleme:** 30 Ekim 2025
+
+"Bekleyen Patiler" ("Platform", "Biz") olarak, kullanıcılarımızın ("Kullanıcı", "Siz") gizliliğine önem veriyoruz. Bu politika, hangi verileri topladığımızı, bu verileri neden kullandığımızı ve nasıl koruduğumuzu açıklamaktadır.
+
+**1. Topladığımız Bilgiler**
+
+* **Sizin Sağladığınız Bilgiler:**
+    * **Hesap Bilgileri:** Kayıt olurken sağladığınız e-posta adresi (Firebase Authentication aracılığıyla).
+    * **Profil Bilgileri:** Profilinizi düzenlerken girdiğiniz Ad ve Soyad.
+    * **İlan İçerikleri:** İlan oluştururken verdiğiniz tüm bilgiler (hayvanın cinsi, yaşı, sağlık durumu, aşıları vb.), ilan fotoğrafları (Supabase Storage'da saklanır) ve konum bilgileri (İl, İlçe, Mahalle).
+    * **Mesajlaşma:** Diğer kullanıcılarla yaptığınız uygulama içi sohbetlerin içeriği (Firebase Firestore'da saklanır).
+
+* **Otomatik Toplanan Bilgiler:**
+    * **Kullanım Verileri:** Uygulamayı nasıl kullandığınıza dair anonim veriler (Firebase Analytics aracılığıyla).
+    * **Reklam Verileri:** Size ilgili reklamları göstermek için Google Ads (AdMob) tarafından toplanan anonim cihaz tanımlayıcıları (örn: Reklam ID'si).
+
+**2. Bilgilerinizi Nasıl Kullanıyoruz?**
+Topladığımız verileri şu amaçlarla kullanırız:
+* Uygulamayı çalıştırmak, hesabınızı doğrulamak ve güvenliğini sağlamak.
+* İlanlarınızı diğer kullanıcılara göstermek.
+* Profilinizde Ad ve Soyad bilgilerinizi göstererek (diğer kullanıcıların size güvenmesi amacıyla) platformdaki etkileşimi sağlamak.
+* Uygulama içi mesajlaşma (chat) özelliğini sunmak.
+* Uygulamanın nasıl kullanıldığını analiz etmek (Firebase Analytics) ve hizmetlerimizi iyileştirmek.
+* İlgili reklamları göstermek (Google Ads).
+
+**3. Veri Paylaşımı ve Üçüncü Taraflar**
+Verilerinizi, yasal zorunluluklar dışında, sizin izniniz olmadan satmayız veya kiralamayız. Veriler şu taraflarla paylaşılabilir:
+* **Google (Google Ads ve Firebase Analytics):** Uygulama performansını analiz etmek ve reklam sunmak amacıyla anonimleştirilmiş veriler Google hizmetleriyle paylaşılır.
+* **Yasal Talepler:** Yasal bir zorunluluk veya resmi bir makam talebi (örn: Savcılık) olması durumunda, ilgili veriler yetkili mercilerle paylaşılabilir.
+
+**4. Veri Güvenliği, Saklama ve Erişim**
+* **Depolama:** Verileriniz, güvenli sunucularda (Firebase Firestore ve Supabase Storage) saklanmaktadır.
+* **Mesajlaşma Güvenliği:** Lütfen dikkat: Uygulama içi mesajlaşmalarınız (chat) **uçtan uca şifrelenmemektedir.**
+* **Yönetici Erişimi:** Platform yöneticileri ("yetkililer"), şikayetlerin incelenmesi, suistimalin önlenmesi, platform kurallarının ihlalinin tespiti veya yasal talepler doğrultusunda **mesaj içeriklerine erişim hakkını saklı tutar.**
+
+**5. Veri Silme Politikası**
+* **İlanlar:** Platform üzerinden oluşturduğunuz bir ilanı sildiğinizde, ilgili ilan metni ve fotoğraflar (Supabase Storage'dan) sistemlerimizden **derhal** silinir ve saklanmaz.
+* **Mesajlar:** Uygulama içi mesajlaşma kayıtları, sistem bütünlüğünün korunması amacıyla **silinememektedir.** Bu mesajlar hesabınızla ilişkili olarak saklanmaya devam eder.
+* **Hesap Silme:** Hesabınızı silmek isterseniz, lütfen <bekleyenpatileriletisim@gmail.com> üzerinden bizimle iletişime geçin. Hesabınız silindiğinde ilanlarınız ve profil bilgileriniz kalıcı olarak silinir, ancak mesaj kayıtları anonimleştirilerek saklanabilir.
+
+**6. Çocukların Gizliliği**
+Bu platform 18 yaşın altındaki bireyler için tasarlanmamıştır.
+
+**7. İletişim**
+Bu gizlilik politikasıyla ilgili sorularınız için bize <bekleyenpatileriletisim@gmail.com> üzerinden ulaşabilirsiniz.
+''';
